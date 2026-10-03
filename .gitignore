@@ -1,0 +1,43 @@
+# Скомпільовані файли та виконувані програми
+*.exe
+*.out
+*.app
+*.o
+*.obj
+
+# Бібліотеки
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Кеш та логи компілятора
+*.pch
+*.ipch
+*.log
+
+# Папки для готових збірок (CMake, Make тощо)
+build/
+out/
+bin/
+Debug/
+Release/
+
+# Налаштування Visual Studio Code
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/c_cpp_properties.json
+!.vscode/settings.json
+
+# Налаштування повноцінної Visual Studio (на майбутнє)
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Системні файли (Windows та macOS)
+Thumbs.db
+.DS_Store
